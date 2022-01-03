@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <title>Anthyme Photographie</title>
+</head>
+
+<body>
+    <section id="home" class="home-container">
+        <header id="header" class="header">
+            <ul class="nav-links">
+                <li>
+                    <a href="#" data-text="Accueil">Accueil</a>
+                </li>
+                <li>
+                    <a href="#best-pictures" data-text="Nos meilleures ventes">Mes meilleures photos</a>
+                </li>
+                <li>
+                    <a href="#pictures" data-text="Nos plantes">Mes autres photos</a>
+                </li>
+            </ul>
+            <div class="burger-container">
+                <div class="burger"></div>
+            </div>
+        </header>
+        <div class="landing">
+            <h1 class="big-title">À la conquête de nouveaux horizons.</h1>
+        </div>
+    </section>
+
+    <section id="best-pictures" class="best-pictures-container">
+        <h1 class="section-title">Mes meilleurs photos</h1>
+        <div class="best-pictures">
+            <a href="#" class="pictures-box no-grid pictures1">
+                <div class="pictures-bio">
+                    <h1 class="pictures-name">...</h1>
+                    <h3 class="pictures-price">...</h3>
+                </div>
+            </a>
+            <a href="#" class="pictures-box no-grid pictures2">
+                <div class="pictures-bio">
+                    <h1 class="pictures-name">...</h1>
+                    <h3 class="pictures-price">...</h3>
+                </div>
+            </a>
+            <a href="#" class="pictures-box no-grid pictures3">
+                <div class="pictures-bio">
+                    <h1 class="pictures-name">...</h1>
+                    <h3 class="pictures-price">...</h3>
+                </div>
+            </a>
+            <a href="#" class="pictures-box no-grid pictures4">
+                <div class="pictures-bio">
+                    <h1 class="pictures-name">...</h1>
+                    <h3 class="pictures-price">...</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="pictures" class="pictures-container">
+        <h1 class="section-title">Mes autres photos</h1>
+        <div class="grid-pictures">
+            <a href="#" class="pictures-box grid pictures-grid1">
+                <div class="pictures-bio">
+                    <h1 class="pictures-name">...</h1>
+                    <h3 class="pictures-price">...</h3>
+                </div>
+            </a>
+            <a href="#" class="pictures-box grid pictures-grid2">
+                <div class="pictures-bio">
+                    <h1 class="pictures-name">...</h1>
+                    <h3 class="pictures-price">...</h3>
+                </div>
+            </a>
+            <a href="#" class="pictures-box grid pictures-grid3">
+                <div class="pictures-bio">
+                    <h1 class="pictures-name">...</h1>
+                    <h3 class="pictures-price">...</h3>
+                </div>
+            </a>
+            <a href="#" class="pictures-box grid pictures-grid5">
+                <div class="pictures-bio">
+                    <h1 class="pictures-name">...</h1>
+                    <h3 class="pictures-price">...</h3>
+                </div>
+            </a>
+            <a href="#" class="pictures-box grid pictures-grid6">
+                <div class="pictures-bio">
+                    <h1 class="pictures-name">...</h1>
+                    <h3 class="pictures-price">...</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <span class="copyrights">&copy; 2022 - Anthyme Photographie</span>
+    </footer>
+    <script>
+        const burgerContainer = document.querySelector('.burger-container');
+        const navLinks = document.querySelector('.nav-links');
+
+        burgerContainer.addEventListener('click', () => {
+            burgerContainer.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>

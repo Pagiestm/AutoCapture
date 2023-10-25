@@ -1,3 +1,3 @@
-# site_Anthyme_Photographie
+# AutoCapture
 
-Création d'un site pour des photos (particulier pour des photos de véhicules de sport).
+Création d'un site pour présenter des photos avec un design travaillé et soigné avec HTML et CSS.
